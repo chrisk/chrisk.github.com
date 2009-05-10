@@ -1,4 +1,4 @@
-shiftcommathree.com
+chrisk.github.com
 ===================
 
 This repo holds the Jekyll-based blog at

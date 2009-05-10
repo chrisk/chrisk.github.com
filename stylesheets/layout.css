@@ -1,0 +1,71 @@
+/**
+ * Controls the main layout (width, height, margin, padding)
+ *
+ * #container
+ *   #page
+ *     #header-noshadow
+ *     #header
+ *     #subheader
+ *     #content
+ *     #sidebar
+ *   #shadow
+ *   #footer
+ */
+
+body { 
+  background: #eee; 
+  text-align: center; 
+  font-family: "Lucida Grande", "Lucida Sans", Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  margin-top: 3em; 
+}
+
+div#container { 
+  margin: 0 auto; 
+  width: 90.5em; 
+  text-align: left; 
+  background-color: white;  
+}
+
+div#page { 
+  width: 89.9em; 
+}
+
+div#header {
+  padding: 3em 2em;
+  color: #000;
+}
+
+
+div#content { 
+  float: left; 
+  background: white; 
+  width: 53em;
+  margin: 1.5em 9em 2em 2em;
+}
+
+div#sidebar { 
+  float: left; 
+  width: 21.4em;
+  margin-top: 1.5em;
+}
+
+div#footer { 
+  background: #eee;
+  padding: 0.3em 0.5em 1em 0; 
+  text-align: right;
+  font-size: 1em;
+}
+
+
+body#formatting_guide {
+  margin-top: 1em;
+}
+body#formatting_guide div#container {
+  width: 78em;
+}
+body#formatting_guide div#content {
+  width: 74em;
+  margin: 1em 0;
+  padding: 2em 2em 0;
+}
